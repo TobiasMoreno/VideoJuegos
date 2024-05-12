@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Descripcion -->
+    <meta name="description" content="Pagina Web de Reseñas Sobre Videojuegos">
+
+    <!-- Titulo -->
+    <title>Web Videojuegos - Inicio</title>
+
+    <!-- Prefetch -->
+    <link rel="prefetch" href="img/banner1.jpg" as = "image">
+    <link rel="prefetch" href="img/banner2.jpg" as = "image">
+    <link rel="prefetch" href="img/banner3.jpg" as = "image">
+    <link rel="prefetch" href="img/banner4.jpg" as = "image">
+
+    <!-- Preload -->
+        <!-- CSS -->
+        <link rel="preload" href="css/normalize.css" as="style"> <!-- Preload -->
+        <link rel="stylesheet" href="css/normalize.css"> <!-- Carga -->
+
+        <link rel="preload" href="css/style.css" as="style"> <!-- Preload -->
+        <link rel="stylesheet" href="css/style.css"> <!-- Carga -->
+
+        <!-- Fuentes -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Press+Start+2P&family=Prompt&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="banner">
+        <div class="banner__texto">
+            <h1 class="no-margin centrar-texto"> Bienvenido a <span class = "banner__textoBold">Web Videojuegos</span></h1>
+        </div>
+
+        <a class = "boton banner__boton" href="nosotros.html" >Más Información</a>
+    </div>
+
+    <nav class="navegacion sombra">
+
+        <img class = "navegacion__logo" src="img/logo.png" alt="Logo">
+
+        <ul class = "navegacion__menu">
+            <li class = "activo"> <a href="index.html">Inicio</a> </li>
+            <li> <a href="noticias.html">Noticias</a> </li>
+            <li> <a href="nosotros.html">Nosotros</a> </li>
+            <li> <a href="contacto.html">Contacto</a> </li>
+        </ul>
+
+    </nav>
+
+    <div class = "contenedor contenido-principal">
+        <main class = "reseñas">
+            <h3 class = "reseñas__titulo">Reseñas</h3>
+
+            <div class = "juegos">
+
+                <!-- JUEGO -->
+                <article class = "juego sombra2">
+                    <figure class = "juego__imagen">
+                        <img loading = "lazy" src="img/juego1.jpg" alt="Imagen" class = "sombra">
+
+                        <div class = "imagen__capa">
+                            <h3 class = "noticia__titulo centrar-texto">Información</h3>
+                            <p class = "sidebar__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sapiente dolorum asperiores?</p>
+                        </div>  
+                    </figure>
+
+                    <a href = "juego1.html" class = "boton juego__boton">Ver Juego</a>
+                </article>
+
+                <!-- JUEGO -->
+                <article class = "juego sombra2">
+                    <figure class = "juego__imagen">
+                        <img loading = "lazy" src="img/juego2.jpg" alt="Imagen" class = "sombra">
+                        
+                        <div class = "imagen__capa">
+                            <h3 class = "noticia__titulo centrar-texto">Información</h3>
+                            <p class = "sidebar__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sapiente dolorum asperiores?</p>
+                        </div>  
+                    </figure>
+
+                    <a href = "juego1.html" class = "boton juego__boton">Ver Juego</a>
+                </article>
+
+                <!-- JUEGO -->
+                <article class = "juego sombra2 juego__extendido">
+                    <figure class = "juego__imagen">
+                        <img loading = "lazy" src="img/juego3.jpg" alt="Imagen" class = "sombra">
+                        
+                        <div class = "imagen__capa">
+                            <h3 class = "noticia__titulo centrar-texto">Información</h3>
+                            <p class = "sidebar__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet veniam ducimus necessitatibus quos doloribus facere eaque eum sapiente commodi laudantium mollitia, nesciunt quo quisquam, voluptates at expedita! Suscipit, dolores reiciendis!</p>
+                        </div>  
+                    </figure>
+
+                    <a href = "juego1.html" class = "boton juego__boton">Ver Juego</a>
+                </article>
+
+                <h3 class = "reseñas__titulo">Juego Destacado</h3><p></p>
+
+                <!-- JUEGO -->
+                <article class = "juego sombra2 juego__extendido">
+                    <figure class = "juego__imagen">
+                        <img loading = "lazy" src="img/juego4.jpg" alt="Imagen" class = "sombra">
+                        
+                        <div class = "imagen__capa">
+                            <h3 class = "noticia__titulo centrar-texto">Información</h3>
+                            <p class = "sidebar__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet veniam ducimus necessitatibus quos doloribus facere eaque eum sapiente commodi laudantium mollitia, nesciunt quo quisquam, voluptates at expedita! Suscipit, dolores reiciendis!</p>
+                        </div>  
+                    </figure>
+
+                    <a href = "juego1.html" class = "boton juego__boton">Ver Juego</a>
+                </article>
+
+                <p class = "juego__texto juego__extendido">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, quas voluptatibus dolores molestias unde tempora quod velit ut rerum saepe molestiae natus reiciendis qui aliquam deleniti ratione eveniet, quia reprehenderit odio? Quas sunt temporibus harum optio nemo expedita recusandae debitis a, sequi fuga quia quasi dolores omnis vitae.</p>
+
+                
+                <!-- JUEGO -->
+                <article class = "juego sombra2 juego__extendido">
+                    <figure class = "juego__imagen">
+                        <img loading = "lazy" src="img/juego5.jpg" alt="Imagen" class = "sombra">
+                        
+                        <div class = "imagen__capa">
+                            <h3 class = "noticia__titulo centrar-texto">Información</h3>
+                            <p class = "sidebar__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet veniam ducimus necessitatibus quos doloribus facere eaque eum sapiente commodi laudantium mollitia, nesciunt quo quisquam, voluptates at expedita! Suscipit, dolores reiciendis!</p>
+                        </div>  
+                    </figure>
+
+                    <a href = "juego1.html" class = "boton juego__boton">Ver Juego</a>
+                </article>
+
+                <!-- JUEGO -->
+                <article class = "juego sombra2">
+                    <figure class = "juego__imagen">
+                        <img loading = "lazy" src="img/juego6.jpg" alt="Imagen" class = "sombra">
+                        
+                        <div class = "imagen__capa">
+                            <h3 class = "noticia__titulo centrar-texto">Información</h3>
+                            <p class = "sidebar__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sapiente dolorum asperiores?</p>
+                        </div>  
+                    </figure>
+
+                    <a href = "juego1.html" class = "boton juego__boton">Ver Juego</a>
+                </article>
+
+                <!-- JUEGO -->
+                <article class = "juego sombra2">
+                    <figure class = "juego__imagen">
+                        <img loading = "lazy" src="img/juego7.jpg" alt="Imagen" class = "sombra">
+                        
+                        <div class = "imagen__capa">
+                            <h3 class = "noticia__titulo centrar-texto">Información</h3>
+                            <p class = "sidebar__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sapiente dolorum asperiores?</p>
+                        </div>  
+                    </figure>
+
+                    <a href = "juego1.html" class = "boton juego__boton">Ver Juego</a>
+                </article>
+
+            </div>
+
+        </main>
+
+
+        <aside class = "sidebar">
+            <h3 class = "noti__titulo">Noticias</h3>
+
+            <ul class = "noticias">
+                <li class = "sidebar__noticia">
+                    <h4 class="noticia__titulo">Nuevas actualizaciones</h4>
+
+                    <img loading = "lazy" src="img/noticia1.jpg" alt="Imagen" class = "sidebar__imagen sombra">
+
+                    <p class = "sidebar__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nesciunt, quasi nihil quae natus dolores cumque, vero sapiente fuga repellendus maiores atque? Voluptates unde molestias vitae quisquam soluta! Perspiciatis, aliquid!</p>
+
+                    <a href = "#" class = "boton sidebar__boton">Ver mas noticias</a>
+                </li>
+            </ul>
+
+            <ul class = "noticias">
+                <li class = "sidebar__noticia">
+                    <h4 class="noticia__titulo">¿Nuevo juego en 2021?</h4>
+
+                    <img loading = "lazy" src="img/noticia2.jpg" alt="Imagen" class = "sidebar__imagen sombra">
+
+                    <p class = "sidebar__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nesciunt, quasi nihil quae natus dolores cumque, vero sapiente fuga repellendus maiores atque? Voluptates unde molestias vitae quisquam soluta! Perspiciatis, aliquid!</p>
+
+                    <a href = "#" class = "boton sidebar__boton">Ver mas noticias</a>
+                </li>
+            </ul>
+
+            <ul class = "noticias">
+                <li class = "sidebar__noticia">
+                    <h4 class="noticia__titulo">Nueva versión en junio</h4>
+
+                    <img loading = "lazy" src="img/noticia3.jpg" alt="Imagen" class = "sidebar__imagen sombra">
+
+                    <p class = "sidebar__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nesciunt, quasi nihil quae natus dolores cumque, vero sapiente fuga repellendus maiores atque? Voluptates unde molestias vitae quisquam soluta! Perspiciatis, aliquid!</p>
+
+                    <a href = "#" class = "boton sidebar__boton">Ver mas noticias</a>
+                </li>
+            </ul>
+
+        </aside>
+
+    </div>
+
+
+    <div class = "bg sombra">
+        <div class = "contenedor contenido-principal">
+            <div class = "reseñas">
+                <h3 class = "reseñas__titulo2">Novedad</h3><p></p>
+                
+                <div class = "juegos">
+                    <!-- JUEGO -->
+                    <article class = "juego sombra2 juego__extendido">
+                    <figure class = "juego__imagen">
+                        <img loading = "lazy" src="img/juego8.jpg" alt="Imagen" class = "sombra">
+                        
+                        <div class = "imagen__capa">
+                            <h3 class = "noticia__titulo centrar-texto">Información</h3>
+                            <p class = "sidebar__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet veniam ducimus necessitatibus quos doloribus facere eaque eum sapiente commodi laudantium mollitia, nesciunt quo quisquam, voluptates at expedita! Suscipit, dolores reiciendis!</p>
+                        </div>  
+                    </figure>
+
+                    <a href = "juego1.html" class = "boton juego__boton2">Ver Juego</a>
+                </article>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class = "contenedor contenido-principal">
+        <main class = "reseñas">
+            <h3 class = "reseñas__titulo">Juegos Móviles</h3>
+
+            <div class = "juegos">
+
+                <!-- JUEGO -->
+                <article class = "juego sombra2">
+                    <figure class = "juego__imagen">
+                        <img loading = "lazy" src="img/juego9.jpg" alt="Imagen" class = "sombra">
+                        
+                        <div class = "imagen__capa">
+                            <h3 class = "noticia__titulo centrar-texto">Información</h3>
+                            <p class = "sidebar__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sapiente dolorum asperiores?</p>
+                        </div>  
+                    </figure>
+
+                    <a href = "juego1.html" class = "boton juego__boton">Ver Juego</a>
+                </article>
+
+                <!-- JUEGO -->
+                <article class = "juego sombra2">
+                    <figure class = "juego__imagen">
+                        <img loading = "lazy" src="img/juego10.jpg" alt="Imagen" class = "sombra">
+                        
+                        <div class = "imagen__capa">
+                            <h3 class = "noticia__titulo centrar-texto">Información</h3>
+                            <p class = "sidebar__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde sapiente dolorum asperiores?</p>
+                        </div>  
+                    </figure>
+
+                    <a href = "juego1.html" class = "boton juego__boton">Ver Juego</a>
+                </article> 
+
+            </div>
+
+        </main>
+
+        <aside class = "sidebar">
+            <h3 class = "noti__titulo centrar-texto noti__tamaño">¿Sugerencias?</h3>
+
+            <article class = "juego">
+                <p class = "sidebar__texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, quam vitae neque, saepe nam tenetur aliquam, dolor nesciunt expedita fugiat reprehenderit enim autem ipsa quas mollitia earum quidem cum id?</p>
+                <a href = "#" class = "boton sidebar__boton">Ir al contacto</a>
+            </article> 
+        </aside> 
+
+    </div>
+
+    <div class = "contenedor redes sombra2">
+        <h3 class = "reseñas__titulo centrar-texto">Nuestras Redes</h3>
+        <div class = "iconos__contenedor">
+                
+            <div>
+                <div class = "redes__iconos sombra">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="100" height="100" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <rect x="4" y="4" width="16" height="16" rx="4" />
+                    <circle cx="12" cy="12" r="3" />
+                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                    </svg>
+                </div>
+
+                <a href = "#" class = "boton redes__boton">Instagram</a>
+            </div>
+
+            <div>
+                <div class = "redes__iconos sombra">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="100" height="100" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                    </svg>
+                </div>
+
+                <a href = "#" class = "boton redes__boton">Twitter</a>
+            </div>
+
+            <div>
+                <div class = "redes__iconos sombra">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="100" height="100" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                    </svg>
+                </div>
+
+                <a href = "#" class = "boton redes__boton">facebook</a>
+            </div>
+
+        </div>
+    </div>
+
+
+    <footer class = "footer">
+        <nav class="navegacion__footer">
+            <img class = "navegacion__logo" src="img/logo.png" alt="Logo">
+
+            <ul class = "navegacion__menu navegacion__menu--footer">
+                <li class = "footer__inicio"> <a href="index.html">Ir al Inicio</a> </li>
+            </ul>
+        </nav>
+
+    </footer>
+
+</body>
+</html>

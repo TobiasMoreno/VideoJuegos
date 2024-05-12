@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Descripcion -->
+    <meta name="description" content="Pagina Web de Reseñas Sobre Videojuegos">
+
+    <!-- Titulo -->
+    <title>Web Videojuegos - Inicio</title>
+
+    <!-- Prefetch -->
+    <link rel="prefetch" href="img/banner1.jpg" as = "image">
+    <link rel="prefetch" href="img/banner2.jpg" as = "image">
+    <link rel="prefetch" href="img/banner3.jpg" as = "image">
+    <link rel="prefetch" href="img/banner4.jpg" as = "image">
+
+    <!-- Preload -->
+        <!-- CSS -->
+        <link rel="preload" href="css/normalize.css" as="style"> <!-- Preload -->
+        <link rel="stylesheet" href="css/normalize.css"> <!-- Carga -->
+
+        <link rel="preload" href="css/style.css" as="style"> <!-- Preload -->
+        <link rel="stylesheet" href="css/style.css"> <!-- Carga -->
+
+        <!-- Fuentes -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Press+Start+2P&family=Prompt&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="banner">
+        <div class="banner__texto">
+            <h1 class="no-margin centrar-texto"> Bienvenido a <span class = "banner__textoBold">Web Videojuegos</span></h1>
+        </div>
+
+        <a class = "boton banner__boton" href="nosotros.html" >Más Información</a>
+    </div>
+
+    <nav class="navegacion sombra">
+
+        <img class = "navegacion__logo" src="img/logo.png" alt="Logo">
+
+        <ul class = "navegacion__menu">
+            <li> <a href="index.html">Inicio</a> </li>
+            <li> <a href="noticias.html">Noticias</a> </li>
+            <li class = "activo"> <a href="nosotros.html">Nosotros</a> </li>
+            <li> <a href="contacto.html">Contacto</a> </li>
+        </ul>
+
+    </nav>
+
+    <div class = "contenedor">
+        <div class = "reseñas  contenedor__noticias">
+            <h3 class = "reseñas__titulo centrar-texto extender1-5">Sobre Nosotros</h3>
+
+        </div>
+    </div>
+
+    <div class = "bg sombra bg2">
+        <div class = "contenedor">
+
+                <h3 class = "reseñas__titulo2 centrar-texto">¿Quienes somos?</h3><p></p>   
+
+                <div class = "contenedor__textoNosotros">   
+                    <p class="sidebar__texto nosotros__texto centrar-texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed amet, animi corporis obcaecati quo aut unde nostrum alias veniam, esse illo repudiandae nulla tempora accusamus magnam voluptate vel molestiae quia odit iusto. Est molestiae veritatis maiores harum corporis dicta officiis!</p>
+                </div>  
+            
+        </div>
+    </div>
+
+    <div class = "contenedor">
+        <div class = "reseñas  contenedor__noticias">
+            <h3 class = "reseñas__titulo centrar-texto extender1-5">¿Que hacemos?</h3>
+            
+
+        </div>
+    </div>
+
+    <footer class = "footer">
+        <nav class="navegacion__footer">
+            <img class = "navegacion__logo" src="img/logo.png" alt="Logo">
+
+            <ul class = "navegacion__menu navegacion__menu--footer">
+                <li class = "footer__inicio"> <a href="index.html">Ir al Inicio</a> </li>
+            </ul>
+        </nav>
+
+    </footer>
+
+</body>
+</html>
